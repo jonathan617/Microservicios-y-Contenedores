@@ -1,0 +1,160 @@
+body{
+    background-image: url(../imagen/los-hexágonos-geométricos-abstractos-forman-el-fondo-del-concepto-de-la-medicina-y-ciencia-iconos-médicos-108140295.jpg);
+    background-size: cover;
+}
+.header{
+    background-color: mediumblue;
+    height: 100px;
+    width: 100%;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    top: 0;
+}
+.porta{
+    background-color:0;
+    color:azure;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    width: 33%;
+    margin-left: 4%;
+}
+.vih{
+    background-color:0;
+    color:azure;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    margin-left: 40%;
+}
+.vih1{
+    background-color:0;
+    color:azure;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+    margin-left: 6%;
+    text-shadow: black 2px 5px;
+}
+p{
+    background-color:0;
+    color:azure;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+}
+nav{
+    background-color:0;
+}
+ul{
+    background-color:0;
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    background-color:0;
+    margin-top: 0px;
+    display: inline;
+}
+a{
+    color:#fff;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+    margin-right: 20px;  
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster&display=swap');
+
+.contenedorpri{
+    margin-left: auto;
+    margin-right: auto;
+    height: 2680px;
+    background-color: cornflowerblue;
+    margin-top: 20px;
+    width: 70%;
+    box-shadow: 7px 13px 37px #000;
+}
+.prueba{
+    height: 80px;
+    background-color: firebrick;
+}
+.titulo{
+    align-content: center;
+    color: azure;
+    font-size: 30px;
+    font-family: 'Abril Fatface', cursive;
+    margin-left: 40%;
+}
+.titulop{
+    align-content: center;
+    color: azure;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    margin-left: 40%;
+    text-shadow: black 2px 5px;
+}
+.contenedordiv div{
+    background-color: darkblue;
+    padding: 2em;
+    margin: 10px;
+}
+
+.contenedordiv{
+    display: grid;
+}
+.caja{
+    margin: 10px;
+    font-family:  'Lobster', cursive;
+}
+.caja3{
+    background-image: url(../imagen/hiv-1903373_1280.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    
+}
+.contene{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.imagen{
+    background-image: url(../imagen/condom-3197506_1280.jpg);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+}
+.imagen1{
+    background-image: url(../imagen/injecting-519389_1280.jpg);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 40px;
+}
+.imagen2{
+    background-image: url(../imagen/madre\ lactante.jpg);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 40px;
+}
+@media(min-width:460px){
+.contenedordiv{
+grid-template-columns:repeat(3,1fr);
+}
+.contenedordiv .caja:nth-child(3){
+    grid-column: 2/4;
+    grid-row: 1/9;
+}
+.contenedordiv .caja:nth-child(4){
+    grid-column: 1/4;
+    
+}
+.contenedordiv .caja:nth-child(8){
+    grid-column: 1/4;
+    
+}
+
+}
