@@ -4,98 +4,219 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
+    
+    <link rel="stylesheet" href="css/style1.css">
     <link rel="stylesheet" href="css/reset.css">
     <title>Document</title>
 </head>
 <body>
     <div class="prueba">
-        <div class="titulo">VIH - SIDA!</div>
+        <div class="titulo">"Una computadora puede ser llamada inteligente si logra enga&ntildear a una persona haciendole creer que es un ser humano"</p>
+            <p class="titulo">Alan Mathison turing</p></div>
     </div>
     <header class="header">
         <div class="porta">
-            <h1 class="titulop">VIH - SIDA</h1>
+            <p class="titulop">Microservicios y Contenedores</p>
         </div>
         <nav>
             <ul>
-                <li><a href="">Entidades</a></li>
-                <li><a href="">Especialidades</a></li>
-                <li><a href="">Apoyo</a></li>
+                <li><a href="#definicion">Microservicios</a></li>
+                <li><a href="#elementos">Contenedores</a></li>
+                
             </ul>
         </nav>
-
-
-
-    </header>
-    <section class="contenedorpri">
-        <div class="contenedordos">
-            <div class="contenedordiv">
-                <div class="caja">
-                        <p class="vih">VIH</p>
-                        <p>El VIH (virus de inmunodeficiencia humana) es  un virus que desencadena la destruccion progresiva del sistema inmunario (defensas del cuerpo),favoreciendo la aparicion de ciertas infecciones, tumores y otras enfermedades.</p>
-                </div>
-                <div class="caja">
-                    <p class="vih">SIDA</p>
-                        <p>Por sus siglas (indrome de inmunodeficiencia adquirida) es un estado donde se hacen manifiestos signos y sintomas avanzados secundarios a la infeccion por el VIH; El sida es el ciclo final del VIH por no tratarse.</p>
-                </div>
-                <div class="caja">
-                    <div class="caja3"></div>
-                </div>
-                <div class="caja">
-                    <p class="vih">VIAS DE TRANSMISION</p>
-                </div>
-                    <div class="contene">
+        </header>
+        <p id="definicion"></p>
+        <section class="contenedorpri">
+            <article class="contenedordos">
+                <section class="contenedordiv">
+                    <article class="caja">
+                        <p class="titul">Microservicios</p>
+                    </article>
+                    <article class="caja">
+                        <P>Una “arquitectura de microservicios” es un enfoque para desarrollar una aplicación software como una serie de pequeños servicios, cada uno ejecutándose de forma autónoma y comunicándose entre sí, por ejemplo, a través de peticiones HTTP a sus API.</P>
+                        <p>Normalmente hay un número mínimo de servicios que gestionan cosas comunes para los demás (como el acceso a base de datos), pero cada microservicio es pequeño y corresponde a un área de negocio de la aplicación.</p>
+                        <p>Además cada uno es independiente y su código debe poder ser desplegado sin afectar a los demás. Incluso cada uno de ellos puede escribirse en un lenguaje de programación diferente, ya que solo exponen la API (una interfaz común, a la que le da igual el lenguaje de programación en la que el microservicio esté programado por debajo) al resto de microservicios.</p>
+                        <p></p>
+                    </article>
+                    <article class="caja">
                         <div class="imagen"></div>
-                        <p>VIA SEXUAL: En la relaciones sexuales com penetracion (anal, vaginal u oral), sin la utilizacion de preservativo. En persona con infeccion de transmision sexual, aumenta el riesdo de contraer VIH.</p>
+                    </article>
+                </section>
+            </article>
+        </section>
+
+        <div id="elementos"></div>
+        <section class="contenedorpri1">
+            <div class="contenedordos1">
+                <div class="contenedordiv1">
+                    <div class="caja">
+                        <p class="titul">Comparacion entre arquitectura monolitica y arquitectura de microservicios</p>
                     </div>
-                <div class="caja">
-                    <div class="contene">
+                    <div class="caja">
+                        <p>ARQUITECTURA MONOLITICA.</p>
+                        <p>Las aplicaciones monolíticas o sistemas monolíticos, tienen como característica el uso de una base de código única para sus servicios o funcionalidades.</p>
+                        <p>Aunque son fáciles de desarrollar, una aplicación que aglutina toda su funcionalidad no es la mejor opción, en el caso de que se tengan aspiraciones de crecimiento complejas, más usuarios, más desarrolladores…</p>
+                        <p>Además, debes tener en cuenta que un gran inconveniente que caracteriza a las aplicaciones monolíticas, es que en el momento que se quiera realizar un nuevo despliegue, se debería relanzar todo el sistema de nuevo.</p>
                         <div class="imagen1"></div>
-                        <p>VIA SANGUINEA: El uso compartido de instrumentos como, jeringas, agujas, materiales de inyeccion o cualquier instrumento cortante que haya estado en contacto con sangre infectada. De tal forma instrimentos punzantes utilizados para tatuajes, piercings, acupuntura perforaciones en la oreja suponen tambien un riesgo de contraer VIH.</p>
+
                     </div>
-                </div>
-                <div class="caja">
-                    <div class="contene">
+                    <div class="caja">
+                        <p>ARQUITECTURA DE MICROSERVICIOS</p>
+                        <p>Construir una aplicación de manera distributiva es el principal objetivo de una arquitectura basada en microservicios. Cada componente de la aplicación debe ser independiente de los otros, permitiendo que sean desplegados por sí mismos.</p>
+                        <p>La comunicación o conexión entre los distintos módulos de la aplicación se realizan a través de API, lo que facilita que cada uno de estos módulos pueda contar con su propio grupo de desarrolladores, eliminando la necesidad de que cada desarrollador tenga que comprender todo el código de la aplicación o de otros módulos de la misma.</p>
+                        <p>Cada uno de los servicios que componen una arquitectura basada en microservicios se puede desarrollar, implementar y escalar sin que afecte el funcionamiento del resto de servicios. Esta autonomía es una de las características principales de este tipo de arquitectura.</p>
                         <div class="imagen2"></div>
-                        <p>VIA VERTICAL:  Es la transmision del virus de VIH de una madre gestante infectada a su hijo durante el embarazo, al momento del parto o durante la lactancia materna.</p>
                     </div>
-                </div>
-                <div class="caja">
-                    <p class="vih">EL VIH NO SE TRANSMITE POR:</p>
-                </div>
-                <div class="caja">
-                    <p>Dar la mano, besarse, acariciarse, contacto con lagrimas, sudor, saliva, tos o estornudos.</p>
-                </div>
-                <div class="caja">
-                    <p>Compartir objetos de uso comun (telefonos, prendas de vestir, alimentos, duchas, sanitarios, piscina, espacios laborales y establecimientos publicos).</p>
-                </div>
-                <div class="caja">
-                    <p>Mordedura o picadura de animales, mosquitos u otros insectos.</p>
-                </div>
-                <div class="caja">
-                    <p>¿COMO SE DETECTA EL VIH?</p>
-                    <P>El VIH se detecta por un analisis especifico de  sangre. Existen prueba rapidas donde se obtiene un resultado en 30 minutos. Un resultado positivo de estas pruebas debe ser  reconfirmado inmediatamente. LA  PRUEBA EN TODO CASO ES VOLUNTARIA Y CONFIDENCIAL</P>
-                </div>
-                <div class="caja">
-                    <p>¿QUIEN DEBE HACERSE LA PRUEBA DE VIH?</p>
-                    <p>- Todas las mujeres embarazadas o que piensen estarlo.</p>
-                    <p>- Las personas que han padecido alguna infeccion de transmision sexual, tuberculosis o hepatitis viral.</p>
-                    <p>Persona con cualquiera de las siguentes practicas de riesgo:</p> 
-                    <p>- Relaciones sexuales con penetracion (anal, vaginal y oral) si hubo eyaculacion sin preservativo con una persona con VIH o una persona con historia sexual desconocido.</p>
-                    <p>- Si se comparte material para inyectarse drogas (jeringas, agujas filtro) o han usado material sin esterilizar para perforaciones en piel o mucosas.</p>
-                </div>
-                <div class="caja">
-                    <p>TRATAMIENTO</p>
-                    <P>- Examen de hematologia.</P>
-                    <p>- Examen de carga viral.</p>
-                    <p>- Examen de serologia.</p>
-                    <p>- examen de tuberculina.</p>
-                    <p>Al tener todos el resultado si la tuberculina es positivo el medico debe tratar inicialmente la tuberculosis de lo contrario evaluara dependiendo los resultados de dichos examenes el medicamento o retroviral mas idoneo para el paciente.</p>
                 </div>
             </div>
-        </div>
-    </section>
-    <p class="vih1">"Mide tus palabras al discriminar y rechazar a una persona diagnostica con VIH pues puedes llevarlo a la muerte a causa de un bajon animico"</p>
-    
-</body>
-</html>
+        </section>
+
+        <div id="estructura"></div>
+        <section id="estructura" class="contenedorpri2">
+            <div class="contenedordos2">
+                <div class="contenedordiv2">
+                    <div class="caja">
+                        <p class="titul">Beneficios de una arquitectura de microservicios</p>
+                    </div>
+                    <div class="caja">
+                        <p>Cuándo implementar microservicios</p>
+                        <p>Teniendo en cuenta los dos siguientes enfoques se puede considerar cuándo es necesario implementar microservicios:</p>
+                        <p>- Cuando una aplicación monolítica tiene éxito y crece, necesitando ser escalada por necesitar más rendimiento o espacio. En estos casos se puede optar por crear la aplicación de microservicios desde cero o extender los componentes modulares con un mejor diseño de la aplicación monolítica.</p>
+                        <p>- Cuando el enfoque inicial de la aplicación tenga un mejor desarrollo con una arquitectura de microservicios (si se prevé que la aplicación tenga un gran volumen de tráfico o usuarios, se dispone de un equipo de desarrolladores, se van a utilizar herramientas avanzadas, la modularidad es un aspecto importante, se necesita una entrega continua, y otros enfoques en microservicios).</p>
+                    </div>
+                    <div class="caja">
+                        <p>- El despliegue independiente de cada uno de los componentes de la aplicación.</p>
+                        <p>- Facilita las actualizaciones al no tener que parar todo el proyecto, solo el módulo a actualizar.</p>
+                        <p>- Permite desarrollar utilizando múltiples lenguajes de programación, lo que aporta ventajas como velocidad, rendimiento, reducción de costes, elección de distintas herramientas de desarrollo, etc.</p>
+                        <p>- Escalabilidad por módulos, permitiendo incrementar las capacidades de cómputo del módulo que mayor carga soporte o mayor demanda tenga (al poderse instalar en distintos servidores los módulos de la aplicación).</p>
+                        <p>- Permite realizar una entrega continua de software a los clientes de una forma mucho más ágil.</p>
+                        <p>- Reduce los errores de programación y facilita los procesos de pruebas y test.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div id="tipo"></div>
+        <section class="contenedorpri3">
+            <div class="contenedordos3">
+                <div class="contenedordiv3">
+                    <div class="caja">
+                        <p class="titul">EJEMPLO DE MICROSERVICIOS</p>
+                    </div>
+                    <div class="caja">
+                        <video class="video" poster="imagen/Tienda.jpg" controls>
+                            <source src="imagen/un-ejemplo-de-microservicios-cafeconrivas_QbvBt9KK.mp4" type="video/mp4">
+                        </video> 
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div id="aprendizaje"></div>
+        <section class="contenedorpri4">
+            <div class="contenedordos4">
+                <div class="contenedordiv4">
+                    <div class="caja">
+                        <p class="titul">APRENDIZAJE.</p>
+                    </div>
+                    <div class="caja">
+                        <p>El aprendizaje es el proceso por el cual una red neuronal modifica sus pesos en respuesta a una información de entrada. Los cambios que se producen durante la etapa de aprendizaje se reducen a la destrucción (el peso de la conexión toma el valor 0), modificación y creación (el peso de la conexión toma un valor distinto de 0) de conexiones entre las neuronas.</p>
+                        <p>Podemos considerar que el proceso de aprendizaje ha terminado cuando los valores de los pesos permanecen estables</p>
+                        <p>Un aspecto importante es determinar los criterios de la regla de aprendizaje; c&oacutemo se van a modificar los pesos. De forma general se consideran dos tipos de reglas:</p>
+                    </div>
+                    <div class="caja">
+                        <p>Aprendizaje supervisado</p>
+                        <div class="imagen10"></div>
+                    </div>
+                    <div class="caja">
+                        <p>Se caracteriza porque el proceso de aprendizaje se realiza mediante un entrenamiento controlado por un agente externo (supervisor, maestro) que determina la respuesta que debería generar la red a partir de una entrada determinada. El supervisor comprueba la salida generada por el sistema y en el caso de que no coincida con la esperada, se procederá a modificar los pesos de las conexiones.</p>
+                    </div>
+                    <div class="caja">
+                        <p class="log">En este tipo de aprendizaje se suelen distinguir a su vez tres formas de llevarlo a cabo:</p>
+                    </div>
+                    <div class="caja">
+                        <p>- Aprendizaje por corrección de error : Consiste en ajustar los pesos de las conexiones de la red en función de la diferencia entre los valores deseados y los obtenidos en la salida.</p>
+                    </div>
+                    <div class="caja">
+                        <p>- Aprendizaje por refuerzo : este tipo de aprendizaje es más lento que el anterior y se basa en la idea de no disponer de un ejemplo completo del comportamiento deseado; es decir, de no indicar durante el entrenamiento la salida exacta que se desea que proporcione la red ante una determinada entrada. Aquí la función del supervisor se reduce a indicar mediante una señal de refuerzo si la salida obtenida en la red se ajusta a la deseada (éxito = +1 o fracaso = -1) y en función de ello se ajustan los pesos basándose en un mecanismo de probabilidades.</p>
+                    </div>
+                    <div class="caja">
+                        <p>- Aprendizaje estoc&aacutestico : consiste básicamente en realizar cambios aleatorios en los valores de los pesos y evaluar su efecto a partir del objetivo deseado y de distribuciones de probabilidad. </p>
+                    </div>
+                    <div class="caja">
+                        <p>Redes con aprendizaje no supervisado</p>
+                        <div class="imagen11"></div>
+                    </div>
+                    <div class="caja">
+                        <p>No requieren de influencia externa para ajustar los pesos de las conexiones entre sus neuronas. La red no recibe ninguna información por parte del entorno que le indique si la salida generada en respuesta a una determinada entrada es o no correcta; son capaces de autoorganizarse. Estas redes deben encontrar las características, regularidades, correlaciones o categorías que se pueden establecer entre los datos de la entrada. Pero, ¿qué genera la red en la salida?.</p>
+                    </div>
+                    <div class="caja">
+                        <p>Existen varias posibilidades en cuanto a interpretación :</p>
+                    </div>
+                    <div class="caja">
+                        <p>- La salida representa el grado de familiaridad o similitud entre la información de entrada y las informaciones mostradas con anterioridad.</p>
+                    </div>
+                    <div class="caja">
+                        <p>- Clusterización o establecimiento de categorias, indicando la red a la salida a qu&eacute categoría pertenece la información de entrada, siendo la propia red la que debe establecer las correlaciones oportunas.</p>
+                    </div>
+                    <div class="caja">
+                        <p>- Codificación de los datos de entrada, generando a la salida una versión codificada con menos bits, pero manteniendo la información relevante de los datos.</p>
+                    </div>
+                    <div class="caja">
+                        <p>- Mapeo de características, obteniéndose una disposición geométrica que representa un mapa topográfico de las características de los datos de entrada.</p>
+                    </div>
+                    <div class="caja">
+                        <p>Los algoritmos de aprendizaje no supervisado suelen ser de dos tipos:</p>
+                    </div>
+                    <div class="caja">
+                        <p>- Aprendizaje hebbiano : pretende medir la familiaridad o extraer características de los datos de entrada.</p>
+                    </div>
+                    <div class="caja">
+                        <p>- Aprendizaje competitivo y cooperativo : las neuronas compiten unas con otras con el fin de llevar a cabo una tarea dada. Se pretende que cuando se presente a la red cierta información, sólo una o un grupo de ellas se activen. Por tanto las neuronas compiten por activarse, quedando las perdedoras a sus valores de respuesta mínimos. La conexión entre neuronas se realiza en todas las capas de la red, existiendo en estas neuronas conexiones recurrentes de autoexcitación y conexiones de inhibición (signo negativo) por parte de neuronas vecinas.</p>
+                    </div>
+                    <div class="caja">
+                        <video class="viideo1" poster="imagen/capturaapre.jpg" controls>
+                            <source src="imagen/s153XpPWY87a_mp4_Wl6nNESG.mp4" type="video/mp4">
+                        </video>  
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div id="aplicaciones"></div> 
+        <section id="aplicaciones" class="contenedorpri5">
+            <div class="contenedordos5">
+                <div class="contenedordiv5">
+                    <div class="caja">
+                        <p class="titul">APLICACIONES</p>
+                    </div>
+                    <div class="caja">
+                        <P>Reconocimiento de patrones de imagenes.</P>
+                        <div class="imagen12"></div>
+                    </div>
+                    <div class="caja">
+                        <p>Convercion de textos a voz.</p>
+                        <div class="imagen13"></div>
+                    </div>
+                    <div class="caja">
+                        <p>Procesamiento natural del lenguaje.</p>
+                        <div class="imagen14"></div>
+                    </div>
+                    <div class="caja">
+                        <p>Prediccion.</p>
+                        <div class="imagen15"></div>
+                    </div>
+                    <div class="caja">
+                        <p>Filtro de ruido</p>
+                        <div class="imagen16"></div>
+                    </div>
+                    <div class="caja">
+                        <p>Tecnologia emergente.</p>
+                        <div class="imagen17"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+    </html>
