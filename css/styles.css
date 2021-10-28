@@ -1,10 +1,10 @@
 body{
-    background-image: url(../imagen/los-hexágonos-geométricos-abstractos-forman-el-fondo-del-concepto-de-la-medicina-y-ciencia-iconos-médicos-108140295.jpg);
+    background-image: url(../imagen/desarrollo-software-1688x844.jpg);
     background-size: cover;
 }
 .header{
-    background-color: mediumblue;
-    height: 100px;
+    background-color: darkslateblue;
+    height: 80px;
     width: 100%;
     position: sticky;
     display: flex;
@@ -12,34 +12,222 @@ body{
     align-items: flex-start;
     top: 0;
 }
-.porta{
-    background-color:0;
-    color:azure;
-    font-size: 20px;
-    font-family: 'Lobster', cursive;
-    width: 33%;
-    margin-left: 4%;
+
+.contenedorpri{
+    margin-left: auto;
+    margin-right: auto;
+    height: 900px;
+    background-color:#333c87;
+    margin-top: 120px;
+    width: 90%;
+    box-shadow: 7px 13px 37px #000;
 }
-.vih{
-    background-color:0;
-    color:azure;
-    font-size: 20px;
-    font-family: 'Lobster', cursive;
-    margin-left: 40%;
+.contenedorpri1{
+    margin-left: auto;
+    margin-right: auto;
+    height: 1610px;
+    background-color: #606082;
+    margin-top: 120px;
+    width: 90%;
+    box-shadow: 7px 13px 37px #000;
 }
-.vih1{
-    background-color:0;
-    color:azure;
+.contenedorpri2{
+    margin-left: auto;
+    margin-right: auto;
+    height: 1050px;
+    background-color: darkslategray;
+    margin-top: 120px;
+    width: 90%;
+    box-shadow: 7px 13px 37px #000;
+}
+.contenedorpri3{
+    margin-left: auto;
+    margin-right: auto;
+    height: 3870px;
+    background-color: midnightblue;
+    margin-top: 120px;
+    width: 90%;
+    box-shadow: 7px 13px 37px #000;
+}
+.contenedorpri4{
+    margin-left: auto;
+    margin-right: auto;
+    height: 4750px;
+    background-color: navy;
+    margin-top: 120px;
+    width: 90%;
+    box-shadow: 7px 13px 37px #000;
+}
+.contenedorpri5{
+    margin-left: auto;
+    margin-right: auto;
+    height: 1580px;
+    background-color: darkolivegreen;
+    margin-top: 120px;
+    width: 90%;
+    box-shadow: 7px 13px 37px #000;
+}
+video{
+    width: 95%;
+    height: 650px;
+}
+.video1{
+    width: 900px;
+    height: 400px;
+}
+.titulop{
+    align-content: center;
+    color: azure;
     font-size: 30px;
-    font-weight: bold;
+    width: 90%;
     font-family: 'Lobster', cursive;
-    margin-left: 6%;
+    margin-left: 10%;
     text-shadow: black 2px 5px;
+}
+.imagen{
+    background-image: url(../imagen/microservicios.png);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 350px;
+    margin-left: 60px;
+}
+.imagen1{
+    background-image: url(../imagen/monolitica.jpg);
+    background-repeat: no-repeat;
+    width: 630px;
+    height: 550px;
+    margin-left: 320px;
+}
+.imagen2{
+    background-image: url(../imagen/arq\ microservicios.jpg);
+    background-repeat: no-repeat;
+    width: 630px;
+    height: 500px;
+    margin-left: 60px;
+}
+.imagen3{
+    background-image: url(../imagen/grafisimple.jpg);
+    background-repeat: no-repeat;
+    width: 670px;
+    height: 310px;
+    margin-left: 60px;
+}
+.imagen4{
+    background-image: url(../imagen/multicapa.jpg);
+    background-repeat: no-repeat;
+    width: 630px;
+    height: 310px;
+    margin-left: 60px;
+}
+.imagen5{
+    background-image: url(../imagen/arquitecturaHOP.jpg);
+    background-repeat: no-repeat;
+    width: 630px;
+    height: 430px;
+    margin-left: 60px;
+}
+.imagen6{
+    background-image: url(../imagen/Redes-neuronales-competitivas\ \(1\).png);
+    background-repeat: no-repeat;
+    width: 630px;
+    height: 330px;
+    margin-left: 60px;
+}
+.imagen7{
+    background-image: url(../imagen/art1.jpg);
+    background-repeat: no-repeat;
+    width: 630px;
+    height: 310px;
+    margin-left: 60px;
+}
+.imagen8{
+    background-image: url(../imagen/ART2.jpg);
+    background-repeat: no-repeat;
+    width: 630px;
+    height: 440px;
+    margin-left: 60px;
+}
+.imagen9{
+    background-image: url(../imagen/mapa\ de\ kohonen.jpg);
+    background-repeat: no-repeat;
+    width: 630px;
+    height: 440px;
+    margin-left: 60px;
+}
+.imagen10{
+    background-image: url(../imagen/aprendizaje_supervisado.png);
+    background-repeat: no-repeat;
+    width: 630px;
+    height: 290px;
+    margin-left: 60px;
+}
+.imagen11{
+    background-image: url(../imagen/aprendizaje_no_supervisado.png);
+    background-repeat: no-repeat;
+    width: 630px;
+    height: 290px;
+    margin-left: 60px;
+}
+.imagen12{
+    background-image: url(../imagen/ROSTRO.jpg);
+    background-repeat: no-repeat;
+    width: 630px;
+    height: 290px;
+    margin-left: 60px;
+}
+.imagen13{
+    background-image: url(../imagen/firma.jpg);
+    background-repeat: no-repeat;
+    width: 630px;
+    height: 290px;
+    margin-left: 60px;
+}
+.imagen14{
+    background-image: url(../imagen/lenguaje.jpg);
+    background-repeat: no-repeat;
+    width: 630px;
+    height: 290px;
+    margin-left: 60px;
+}
+.imagen15{
+    background-image: url(../imagen/percepcion.jpg);
+    background-repeat: no-repeat;
+    width: 630px;
+    height: 290px;
+    margin-left: 60px;
+}
+.imagen16{
+    background-image: url(../imagen/ruido.jpg);
+    background-repeat: no-repeat;
+    width: 630px;
+    height: 290px;
+    margin-left: 60px;
+}
+.imagen17{
+    background-image: url(../imagen/software.jpg);
+    background-repeat: no-repeat;
+    width: 630px;
+    height: 290px;
+    margin-left: 60px;
 }
 p{
     background-color:0;
     color:azure;
-    font-size: 20px;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+}
+.titul{
+    margin-left: 200px;
+    color:azure;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+}
+.log{
+    margin-top: 300px;
+    background-color:0;
+    color:azure;
+    font-size: 30px;
     font-family: 'Lobster', cursive;
 }
 nav{
@@ -57,104 +245,310 @@ li{
 }
 a{
     color:#fff;
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 25px;
     font-family: 'Lobster', cursive;
     text-decoration: none;
-    margin-right: 20px;  
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster&display=swap');
-
-.contenedorpri{
-    margin-left: auto;
-    margin-right: auto;
-    height: 2680px;
-    background-color: cornflowerblue;
-    margin-top: 20px;
-    width: 70%;
-    box-shadow: 7px 13px 37px #000;
-}
-.prueba{
-    height: 80px;
-    background-color: firebrick;
+    margin-right: 25px;  
 }
 .titulo{
     align-content: center;
     color: azure;
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'Abril Fatface', cursive;
-    margin-left: 40%;
+    margin-left: 160px;
 }
-.titulop{
-    align-content: center;
-    color: azure;
-    font-size: 30px;
+.porta{
+    background-color:0;
+    color:azure;
+    font-size: 20px;
     font-family: 'Lobster', cursive;
-    margin-left: 40%;
-    text-shadow: black 2px 5px;
+    width: 33%;
+    margin-left: 0%;
 }
+.prueba{
+    height: 80px;
+    background-image: url(../imagen/redes\ neuronales.jpg);
+    background-size: cover;
+}
+
 .contenedordiv div{
-    background-color: darkblue;
+    background-color: 0;
     padding: 2em;
     margin: 10px;
 }
-
+.contenedordiv1 div{
+    background-color: lightslategray;
+    padding: 1em;
+    margin: 10px;
+}
+.contenedordiv2 div{
+    background-color: mediumslateblue;
+    padding: 1em;
+    margin: 10px;
+}
+.contenedordiv3 div{
+    background-color: royalblue;
+    padding: 1em;
+    margin: 10px;
+}
+.contenedordiv4 div{
+    background-color: teal;
+    padding: 1em;
+    margin: 10px;
+}
+.contenedordiv5 div{
+    background-color: blueviolet;
+    padding: 1em;
+    margin: 10px;
+}
 .contenedordiv{
+    display: grid;
+}
+.contenedordiv1{
+    display: grid;
+}
+.contenedordiv2{
+    display: grid;
+}
+.contenedordiv3{
+    display: grid;
+}
+.contenedordiv4{
+    display: grid;
+}
+.contenedordiv5{
     display: grid;
 }
 .caja{
     margin: 10px;
     font-family:  'Lobster', cursive;
 }
-.caja3{
-    background-image: url(../imagen/hiv-1903373_1280.jpg);
-    background-repeat: no-repeat;
-    height: 500px;
-    
-}
-.contene{
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-}
-.imagen{
-    background-image: url(../imagen/condom-3197506_1280.jpg);
-    background-repeat: no-repeat;
-    width: 100px;
-    height: 40px;
-    margin-top: 20px;
-}
-.imagen1{
-    background-image: url(../imagen/injecting-519389_1280.jpg);
-    background-repeat: no-repeat;
-    width: 100px;
-    height: 40px;
-}
-.imagen2{
-    background-image: url(../imagen/madre\ lactante.jpg);
-    background-repeat: no-repeat;
-    width: 100px;
-    height: 40px;
-}
+
 @media(min-width:460px){
 .contenedordiv{
-grid-template-columns:repeat(3,1fr);
+grid-template-columns:repeat(4,1fr);
+}
+.contenedordiv1{
+grid-template-columns:repeat(4,1fr);
+}
+.contenedordiv2{
+grid-template-columns:repeat(4,1fr);
+}
+.contenedordiv3{
+grid-template-columns:repeat(4,1fr);
+}
+.contenedordiv4{
+grid-template-columns:repeat(4,1fr);
+}
+.contenedordiv5{
+grid-template-columns:repeat(4,1fr);
+}
+.contenedordiv .caja:nth-child(1){
+    grid-column: 1/6;
+    grid-row: 1/2;
+}
+.contenedordiv1 .caja:nth-child(1){
+    grid-column: 1/6;
+    grid-row: 1/2;
+}
+.contenedordiv2 .caja:nth-child(1){
+    grid-column: 1/6;
+    grid-row: 1/2;
+}
+.contenedordiv .caja:nth-child(2){
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+.contenedordiv1 .caja:nth-child(2){
+    grid-column: 3/6;
+    grid-row: 2/3;
+}
+.contenedordiv2 .caja:nth-child(2){
+    grid-column: 3/6;
+    grid-row: 2/3;
 }
 .contenedordiv .caja:nth-child(3){
+    grid-column: 3/6;
+    grid-row: 2/3;
+}
+.contenedordiv1 .caja:nth-child(3){
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+.contenedordiv2 .caja:nth-child(3){
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+.contenedordiv3 .caja:nth-child(1){
+    grid-column: 1/6;
+    grid-row: 1/2;
+}
+.contenedordiv3 .caja:nth-child(2){
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+.contenedordiv3 .caja:nth-child(3){
+    grid-column: 3/6;
+    grid-row: 2/3;
+}
+.contenedordiv3 .caja:nth-child(4){
+    grid-column: 1/3;
+    grid-row: 3/4;
+}
+.contenedordiv3 .caja:nth-child(5){
+    grid-column: 3/6;
+    grid-row: 3/4;
+}
+.contenedordiv3 .caja:nth-child(6){
+    grid-column: 3/6;
+    grid-row: 4/5;
+}
+.contenedordiv3 .caja:nth-child(7){
+    grid-column: 1/3;
+    grid-row: 4/5;
+}
+.contenedordiv3 .caja:nth-child(8){
+    grid-column: 1/2;
+}
+.contenedordiv3 .caja:nth-child(9){
     grid-column: 2/4;
-    grid-row: 1/9;
 }
-.contenedordiv .caja:nth-child(4){
-    grid-column: 1/4;
+.contenedordiv3 .caja:nth-child(10){
+    grid-column: 4/6;
+}
+.contenedordiv3 .caja:nth-child(11){
+    grid-column: 3/6;
+    grid-row: 6/7;
+}
+.contenedordiv3 .caja:nth-child(12){
+    grid-column: 1/3;
+    grid-row: 6/7;
+}
+.contenedordiv3 .caja:nth-child(13){
+    grid-column: 1/3;
+    grid-row: 7/8;
+}
+.contenedordiv3 .caja:nth-child(14){
+    grid-column: 3/6;
+    grid-row: 7/8;
+}
+.contenedordiv3 .caja:nth-child(15){
+    grid-column: 3/6;
+    grid-row: 8/9;
+}
+.contenedordiv3 .caja:nth-child(16){
+    grid-column: 1/3;
+    grid-row: 8/9;
+}
+.contenedordiv3 .caja:nth-child(17){
+    grid-column: 1/3;
+    grid-row: 9/10;
+}
+.contenedordiv3 .caja:nth-child(18){
+    grid-column: 3/6;
+    grid-row: 9/10;
+}
+.contenedordiv4 .caja:nth-child(1){
+    grid-column: 1/6;
+    grid-row: 1/2;
+}
+.contenedordiv4 .caja:nth-child(2){
+    grid-column: 1/6;
+    grid-row: 2/3;
+}
+.contenedordiv4 .caja:nth-child(3){
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.contenedordiv4 .caja:nth-child(4){
+    grid-column: 2/6;
+    grid-row: 3/4;
+}.contenedordiv4 .caja:nth-child(5){
+    grid-column: 1/2;
+    grid-row: 4/7;
+}
+.contenedordiv4 .caja:nth-child(6){
+    grid-column: 2/6;
+    grid-row: 4/5;
+}
+.contenedordiv4 .caja:nth-child(7){
+    grid-column: 2/6;
+    grid-row: 5/6;
+}
+.contenedordiv4 .caja:nth-child(8){
+    grid-column: 2/6;
+    grid-row: 6/7;
+}
+.contenedordiv4 .caja:nth-child(9){
+    grid-column: 1/2;
+    grid-row: 7/8;
+}
+.contenedordiv4 .caja:nth-child(10){
+    grid-column: 2/6;
+    grid-row: 7/8;
+}
+.contenedordiv4 .caja:nth-child(11){
+    grid-column: 1/6;
+}
+.contenedordiv4 .caja:nth-child(12){
+    grid-column: 1/6;
+    grid-row: 9/10;
+}
+.contenedordiv4 .caja:nth-child(13){
+    grid-column: 1/6;
+    grid-row: 10/11;
+}
+.contenedordiv4 .caja:nth-child(14){
+    grid-column: 1/6;
+    grid-row: 11/12;
+}
+.contenedordiv4 .caja:nth-child(15){
+    grid-column: 1/6;
+    grid-row: 12/13;
+}
+.contenedordiv4 .caja:nth-child(16){
+    grid-column: 1/6;
+}
+.contenedordiv4 .caja:nth-child(17){
+    grid-column: 1/2;
+    grid-row: 14/15;
+}
+.contenedordiv4 .caja:nth-child(18){
+    grid-column: 2/6;
+    grid-row: 14/15;
+}
+.contenedordiv4 .caja:nth-child(19){
+    grid-column: 1/5;
+    grid-row: 15/16;
+}
+.contenedordiv5 .caja:nth-child(1){
+    grid-column: 1/6;
+}
+.contenedordiv5 .caja:nth-child(2){
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+.contenedordiv5 .caja:nth-child(3){
+    grid-column: 3/6;
+    grid-row: 2/3;
+}
+.contenedordiv5 .caja:nth-child(4){
+    grid-column: 1/3;
+    grid-row: 3/4;
+}
+.contenedordiv5 .caja:nth-child(5){
+    grid-column: 3/6;
+    grid-row: 3/4;
+}
+.contenedordiv5 .caja:nth-child(6){
+    grid-column: 1/3;
+    grid-row: 4/5;
+}
+.contenedordiv5 .caja:nth-child(7){
+    grid-column: 3/6;
+    grid-row: 4/5;
+}
+}
+@media screen and (min-width: 310px) and (max-width:600px) {
     
-}
-.contenedordiv .caja:nth-child(8){
-    grid-column: 1/4;
-    
-}
-
 }
