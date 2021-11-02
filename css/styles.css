@@ -22,6 +22,15 @@ body{
     width: 90%;
     box-shadow: 7px 13px 37px #000;
 }
+.contenedorpri-{
+    margin-left: auto;
+    margin-right: auto;
+    height: 1400px;
+    background-color:#333c87;
+    margin-top: 120px;
+    width: 90%;
+    box-shadow: 7px 13px 37px #000;
+}
 .contenedorpri1{
     margin-left: auto;
     margin-right: auto;
@@ -31,11 +40,20 @@ body{
     width: 90%;
     box-shadow: 7px 13px 37px #000;
 }
+.vih1{
+    background-color:0;
+    color:azure;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+    margin-left: 6%;
+    text-shadow: black 2px 5px;
+}
 .contenedorpri2{
     margin-left: auto;
     margin-right: auto;
     height: 1050px;
-    background-color: darkslategray;
+    background-color: #606082;
     margin-top: 120px;
     width: 90%;
     box-shadow: 7px 13px 37px #000;
@@ -43,7 +61,7 @@ body{
 .contenedorpri3{
     margin-left: auto;
     margin-right: auto;
-    height: 3870px;
+    height: 860px;
     background-color: midnightblue;
     margin-top: 120px;
     width: 90%;
@@ -52,7 +70,7 @@ body{
 .contenedorpri4{
     margin-left: auto;
     margin-right: auto;
-    height: 4750px;
+    height: 4820px;
     background-color: navy;
     margin-top: 120px;
     width: 90%;
@@ -61,8 +79,8 @@ body{
 .contenedorpri5{
     margin-left: auto;
     margin-right: auto;
-    height: 1580px;
-    background-color: darkolivegreen;
+    height: 2920px;
+    background-color: #606082;
     margin-top: 120px;
     width: 90%;
     box-shadow: 7px 13px 37px #000;
@@ -106,114 +124,152 @@ video{
     margin-left: 60px;
 }
 .imagen3{
-    background-image: url(../imagen/grafisimple.jpg);
+    background-image: url(../imagen/docker-750.png);
     background-repeat: no-repeat;
     width: 670px;
-    height: 310px;
+    height: 410px;
     margin-left: 60px;
 }
 .imagen4{
-    background-image: url(../imagen/multicapa.jpg);
+    background-image: url(../imagen/docker.png);
     background-repeat: no-repeat;
     width: 630px;
-    height: 310px;
+    height: 410px;
     margin-left: 60px;
 }
 .imagen5{
-    background-image: url(../imagen/arquitecturaHOP.jpg);
+    background-image: url(../imagen/es.jpg);
     background-repeat: no-repeat;
     width: 630px;
     height: 430px;
     margin-left: 60px;
+
 }
 .imagen6{
-    background-image: url(../imagen/Redes-neuronales-competitivas\ \(1\).png);
+    background-image: url(../imagen/desarrollo.jpg);
     background-repeat: no-repeat;
     width: 630px;
     height: 330px;
     margin-left: 60px;
+    margin-top: 80px;
 }
 .imagen7{
-    background-image: url(../imagen/art1.jpg);
+    background-image: url(../imagen/docker-process_HJGc-BYr4.jpg);
     background-repeat: no-repeat;
     width: 630px;
-    height: 310px;
+    height: 410px;
     margin-left: 60px;
+    margin-top: 20px;
 }
 .imagen8{
-    background-image: url(../imagen/ART2.jpg);
+    background-image: url(../imagen/envie.png);
     background-repeat: no-repeat;
-    width: 630px;
-    height: 440px;
-    margin-left: 60px;
+    width: 230px;
+    height: 60px;
+    margin-left: 150px;
 }
 .imagen9{
-    background-image: url(../imagen/mapa\ de\ kohonen.jpg);
+    background-image: url(../imagen/estandarice.png);
     background-repeat: no-repeat;
     width: 630px;
-    height: 440px;
+    height: 60px;
     margin-left: 60px;
 }
 .imagen10{
-    background-image: url(../imagen/aprendizaje_supervisado.png);
+    background-image: url(../imagen/tranfiera.png);
     background-repeat: no-repeat;
     width: 630px;
-    height: 290px;
+    height: 60px;
     margin-left: 60px;
 }
 .imagen11{
-    background-image: url(../imagen/aprendizaje_no_supervisado.png);
+    background-image: url(../imagen/ahorre.png);
     background-repeat: no-repeat;
     width: 630px;
-    height: 290px;
+    height: 60px;
     margin-left: 60px;
 }
 .imagen12{
-    background-image: url(../imagen/ROSTRO.jpg);
+    background-image: url(../imagen/microservicios1.png);
     background-repeat: no-repeat;
     width: 630px;
-    height: 290px;
+    height: 60px;
     margin-left: 60px;
 }
 .imagen13{
-    background-image: url(../imagen/firma.jpg);
+    background-image: url(../imagen/integracion.png);
     background-repeat: no-repeat;
     width: 630px;
-    height: 290px;
+    height: 60px;
     margin-left: 60px;
 }
 .imagen14{
-    background-image: url(../imagen/lenguaje.jpg);
+    background-image: url(../imagen/procesamiento.png);
     background-repeat: no-repeat;
     width: 630px;
-    height: 290px;
+    height: 60px;
     margin-left: 60px;
 }
 .imagen15{
-    background-image: url(../imagen/percepcion.jpg);
+    background-image: url(../imagen/contenedores.png);
     background-repeat: no-repeat;
     width: 630px;
-    height: 290px;
+    height: 60px;
     margin-left: 60px;
 }
 .imagen16{
-    background-image: url(../imagen/ruido.jpg);
+    background-image: url(../imagen/kubernetes-logo.jpg.jpg);
     background-repeat: no-repeat;
     width: 630px;
     height: 290px;
-    margin-left: 60px;
+    margin-left: 560px;
 }
 .imagen17{
-    background-image: url(../imagen/software.jpg);
+    background-image: url(../imagen/ejecutar.png);
     background-repeat: no-repeat;
     width: 630px;
-    height: 290px;
+    height: 60px;
+    margin-left: 60px;
+}
+.imagen18{
+    background-image: url(../imagen/tranferit\ apli.png);
+    background-repeat: no-repeat;
+    width: 630px;
+    height: 60px;
+    margin-left: 60px;
+}
+.imagen19{
+    background-image: url(../imagen/realice.png);
+    background-repeat: no-repeat;
+    width: 630px;
+    height: 60px;
+    margin-left: 60px;
+}
+.imagen20{
+    background-image: url(../imagen/agregue.png);
+    background-repeat: no-repeat;
+    width: 630px;
+    height: 60px;
     margin-left: 60px;
 }
 p{
     background-color:0;
     color:azure;
     font-size: 30px;
+    font-family: 'Lobster', cursive;
+}
+.port{
+    background-color:0;
+    color:azure;
+    font-size: 30px;
+    margin-top: 150px;
+    font-family: 'Lobster', cursive;
+}
+.port1{
+    background-color:0;
+    color:azure;
+    font-size: 30px;
+    margin-top: 350px;
     font-family: 'Lobster', cursive;
 }
 .titul{
@@ -276,6 +332,11 @@ a{
     padding: 2em;
     margin: 10px;
 }
+.contenedordiv- div{
+    background-color: 0;
+    padding: 2em;
+    margin: 10px;
+}
 .contenedordiv1 div{
     background-color: lightslategray;
     padding: 1em;
@@ -328,6 +389,9 @@ a{
 .contenedordiv{
 grid-template-columns:repeat(4,1fr);
 }
+.contenedordiv-{
+    grid-template-columns:repeat(4,1fr);
+    }
 .contenedordiv1{
 grid-template-columns:repeat(4,1fr);
 }
@@ -359,6 +423,10 @@ grid-template-columns:repeat(4,1fr);
     grid-column: 1/3;
     grid-row: 2/3;
 }
+.contenedordiv- .caja:nth-child(2){
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
 .contenedordiv1 .caja:nth-child(2){
     grid-column: 3/6;
     grid-row: 2/3;
@@ -368,6 +436,10 @@ grid-template-columns:repeat(4,1fr);
     grid-row: 2/3;
 }
 .contenedordiv .caja:nth-child(3){
+    grid-column: 3/6;
+    grid-row: 2/3;
+}
+.contenedordiv- .caja:nth-child(3){
     grid-column: 3/6;
     grid-row: 2/3;
 }
@@ -384,7 +456,7 @@ grid-template-columns:repeat(4,1fr);
     grid-row: 1/2;
 }
 .contenedordiv3 .caja:nth-child(2){
-    grid-column: 1/3;
+    grid-column: 1/6;
     grid-row: 2/3;
 }
 .contenedordiv3 .caja:nth-child(3){
@@ -465,7 +537,7 @@ grid-template-columns:repeat(4,1fr);
     grid-row: 3/4;
 }.contenedordiv4 .caja:nth-child(5){
     grid-column: 1/2;
-    grid-row: 4/7;
+    grid-row: 4/5;
 }
 .contenedordiv4 .caja:nth-child(6){
     grid-column: 2/6;
@@ -476,77 +548,87 @@ grid-template-columns:repeat(4,1fr);
     grid-row: 5/6;
 }
 .contenedordiv4 .caja:nth-child(8){
-    grid-column: 2/6;
-    grid-row: 6/7;
+    grid-column: 1/2;
+    grid-row: 5/6;
 }
 .contenedordiv4 .caja:nth-child(9){
     grid-column: 1/2;
-    grid-row: 7/8;
+    grid-row: 6/7;
 }
 .contenedordiv4 .caja:nth-child(10){
     grid-column: 2/6;
-    grid-row: 7/8;
+    grid-row: 6/7;
 }
 .contenedordiv4 .caja:nth-child(11){
-    grid-column: 1/6;
+    grid-column: 1/2;
+    grid-row: 7/8;
 }
 .contenedordiv4 .caja:nth-child(12){
-    grid-column: 1/6;
-    grid-row: 9/10;
+    grid-column: 2/6;
+    grid-row: 7/8;
 }
 .contenedordiv4 .caja:nth-child(13){
     grid-column: 1/6;
-    grid-row: 10/11;
+    grid-row: 9/10;
 }
 .contenedordiv4 .caja:nth-child(14){
-    grid-column: 1/6;
-    grid-row: 11/12;
+    grid-column: 1/2;
+    grid-row: 10/11;
 }
 .contenedordiv4 .caja:nth-child(15){
-    grid-column: 1/6;
-    grid-row: 12/13;
+    grid-column: 2/6;
+    grid-row: 10/11;
 }
 .contenedordiv4 .caja:nth-child(16){
-    grid-column: 1/6;
+    grid-column: 1/2;
+    grid-row: 11/12;
 }
 .contenedordiv4 .caja:nth-child(17){
-    grid-column: 1/2;
-    grid-row: 14/15;
+    grid-column: 2/6;
+    grid-row: 11/12;
 }
 .contenedordiv4 .caja:nth-child(18){
-    grid-column: 2/6;
-    grid-row: 14/15;
+    grid-column: 1/2;
+    grid-row: 12/13;
 }
 .contenedordiv4 .caja:nth-child(19){
-    grid-column: 1/5;
-    grid-row: 15/16;
+    grid-column: 2/6;
+    grid-row: 12/13;
 }
 .contenedordiv5 .caja:nth-child(1){
     grid-column: 1/6;
 }
 .contenedordiv5 .caja:nth-child(2){
-    grid-column: 1/3;
+    grid-column: 1/6;
     grid-row: 2/3;
 }
 .contenedordiv5 .caja:nth-child(3){
-    grid-column: 3/6;
-    grid-row: 2/3;
+    grid-column: 1/3;
+    grid-row: 3/4;
 }
 .contenedordiv5 .caja:nth-child(4){
-    grid-column: 1/3;
+    grid-column: 3/6;
     grid-row: 3/4;
 }
 .contenedordiv5 .caja:nth-child(5){
-    grid-column: 3/6;
-    grid-row: 3/4;
+    grid-column: 1/6;
+    grid-row: 4/5;
 }
 .contenedordiv5 .caja:nth-child(6){
     grid-column: 1/3;
-    grid-row: 4/5;
+    grid-row: 5/6;
 }
 .contenedordiv5 .caja:nth-child(7){
     grid-column: 3/6;
-    grid-row: 4/5;
+    grid-row: 5/6;
+}
+.contenedordiv5 .caja:nth-child(8){
+    grid-column: 1/3;
+    grid-row: 6/7;
+}
+.contenedordiv5 .caja:nth-child(9){
+    grid-column: 3/6;
+    grid-row: 6/7;
 }
 }
 @media screen and (min-width: 310px) and (max-width:600px) {
